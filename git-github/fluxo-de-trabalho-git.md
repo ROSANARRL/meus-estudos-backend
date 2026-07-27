@@ -3,7 +3,8 @@ Documentação técnica do fluxo de trabalho padrão para versionamento de proje
 
 ## Fluxo de Execução
 [1. Preparação Local] ➔ [2. Registro Local] ➔ [3. Envio para Nuvem] ➔ [4. Verificação] ➔ [5. Validação/Clone]
-Detalhamento das Etapas
+
+## Detalhamento das Etapas
 
     Fase 1: Preparação e Edição Local
 •	Objetivo: Criar, organizar ou editar os arquivos do projeto na máquina local.
@@ -13,6 +14,7 @@ Detalhamento das Etapas
 •	Objetivo: Salvar um ponto de checagem (snapshot) do trabalho no histórico local.
 •	Comandos:
 Bash
+
 # Prepara todas as alterações para o registro
 git add .
 
@@ -30,6 +32,7 @@ git push
 •	Objetivo: Validar se o repositório local está sincronizado com a nuvem e revisar o histórico.
 •	Comandos:
 Bash
+
 # Verifica o status da área de trabalho (deve indicar: 'working tree clean')
 git status
 
