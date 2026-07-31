@@ -139,13 +139,21 @@ Passo 7: Preencher e Criar o Pull Request (Opção Rascunho / Draft)
 1.	Título: docs: adiciona codigo-de-conduta.md
 2.	Descrição: Escrever Closes #2 (para vincular à Issue).
 Automação do GitHub:
+
     •	Quando você escreve Closes #2 (ou Fixes #2), o GitHub entende que aquele Pull Request entrega exatamente o que a Issue #2 estava pedindo.
+
 Fechamento automático:
+
     •	Assim que a líder ou a squad clicar em Merge pull request para aprovar o seu código, o próprio GitHub vai fechar a Issue #2 automaticamente.
+
 Organização do Projeto:
+
     •	Economiza tempo, pois você não precisa ir manualmente na aba Issues depois para fechar a tarefa, evitando que o painel do grupo fique com pendências desatualizadas.
+
 3. Forma de envio:
+
     a. Para enviar direto para revisão: Clicar em "Create pull request".
+
     b. Para enviar como rascunho (trabalho em andamento): Clicar na seta ao lado do botão verde -> Selecionar "Create draft pull request" -> Clicar em "Draft pull request".
 
 Passo 7.1: Mudar de Draft para Pronto para Revisão (quando concluir o trabalho)
@@ -173,6 +181,37 @@ Digite e aperte Enter: git checkout main
 Passo 2: Atualizar seu projeto local
 Para puxar tudo o que a equipe já aprovou e unificou no repositório remoto, digite e aperte Enter:
 git pull origin main
+
     I.	cd .. (Mudar de pasta): Serve para navegar pelas pastas do seu computador (como subir do nível manual-comunidade-squad para a pasta pai WoMakersCode).
+
     II.	git checkout main (Mudar de branch no Git): Serve para alternar o "modo de trabalho" do código (sair da sua versão de testes feature/codigo-de-conduta e voltar para a versão principal do projeto main).
+
+## Alterando arquivo na pasta do GitHub na máquina via VS Code e subindo para o GitHub web.
+
+Passo 0: Limpar a tela (Opcional)
+            Clear
+
+Passo 1: Verificar a área de trabalho
+Confeccione o status para garantir que o Git está enxergando a sua alteração no arquivo correto: git status
+
+
+Passo 2: Sincronizar com o repositório remoto
+Como você está na branch main, baixe qualquer alteração pendente apontando para a branch, não para o arquivo: git pull origin main
+
+Passo 3: Adicionar o arquivo alterado à área de preparação (Staging)
+Adicione o arquivo específico alterado: git add git-github/fluxo-de-trabalho-git.md
+
+Passo 4: Gravar a alteração no histórico local (Commit)
+Crie um ponto de salvamento com uma mensagem descritiva: git commit -m "docs: atualiza fluxo de trabalho no git"
+
+Passo 5: Enviar para o GitHub (Push)
+Suba a alteração salva para a sua branch principal na nuvem: git push origin main
+
+## Resumo da rotina mental para fixar:
+
+	git status → O que mudou?
+	git pull → Atualizar o local.
+	git add → Selecionar o arquivo.
+	git commit → Salvar o pacote localmente.
+	git push → Enviar para a nuvem.
 
