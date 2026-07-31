@@ -15,10 +15,10 @@ Fase 2: Registro no Git Local (Staging e Commit)
     •	Comandos:
 Bash
 
-# Prepara todas as alterações para o registro
+## Prepara todas as alterações para o registro
     git add .
 
-# Salva a versão no histórico com mensagem descritiva
+## Salva a versão no histórico com mensagem descritiva
     git commit -m "Adiciona documentação inicial e licença MIT"
 
 Fase 3: Sincronização com o Repositório Remoto (Push)
@@ -33,10 +33,10 @@ Fase 4: Verificação de Integridade e Histórico
     •	Comandos:
                 Bash
 
-# Verifica o status da área de trabalho (deve indicar: 'working tree clean')
+## Verifica o status da área de trabalho (deve indicar: 'working tree clean')
                 git status
 
-# Exibe o histórico resumido de commits
+## Exibe o histórico resumido de commits
                 git log --oneline
 
 Fase 5: Validação Externa (Clone de Teste)
@@ -98,7 +98,7 @@ Passo 3: Criar o arquivo
 2.	Digite o nome exato com a extensão (sem acento e com .md no final): codigo-de-conduta.md
 
 Passo 4: Escrever o conteúdo e salvar
-# Código de Conduta da Comunidade
+## Código de Conduta da Comunidade
 
 ## 1. Nosso Compromisso
 Nos dedicamos a proporcionar uma experiência livre de assédio, discriminação e intimidação para todas as pessoas participantes, independentemente de gênero, orientação sexual, deficiência, aparência física, raça ou religião.
