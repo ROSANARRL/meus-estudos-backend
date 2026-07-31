@@ -42,9 +42,6 @@ Console.WriteLine($"You are {age} years old.");
 
 
 		EXPLICAÇÃO
-
-
-
 Como o C# não permite fazer operações matemáticas diretamente com textos, eu precisei criar uma estratégia em duas etapas:
 
 Primeiro, usei uma variável do tipo string chamada yearInput para receber o teclado.
@@ -52,9 +49,6 @@ Depois, usei o método int.Parse() para converter esse texto no número inteiro 
 Com os dados convertidos para int, consegui subtrair de forma segura (currentYear - yearBorn) e exibir o resultado final na tela.
 
 LINK
-
-
-
 https://dotnetfiddle.net/8eQ217
 
 
@@ -127,8 +121,7 @@ else
 
 		EXPLICAÇÃO
 
-		LINK
-
+LINK
 https://dotnetfiddle.net/dvcyor
 
 # Desafio 3: Ímpares de 200 a 0
