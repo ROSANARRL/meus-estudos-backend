@@ -153,7 +153,6 @@ Organização do Projeto:
 3. Forma de envio:
 
     a. Para enviar direto para revisão: Clicar em "Create pull request".
-
     b. Para enviar como rascunho (trabalho em andamento): Clicar na seta ao lado do botão verde -> Selecionar "Create draft pull request" -> Clicar em "Draft pull request".
 
 Passo 7.1: Mudar de Draft para Pronto para Revisão (quando concluir o trabalho)
